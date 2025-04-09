@@ -1,0 +1,48 @@
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="file"] {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  button:hover {
+    background-color: #005fd4;
+  }
+  
+  .profile-card {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .profile-card img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
